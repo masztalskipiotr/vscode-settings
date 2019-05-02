@@ -1,0 +1,38 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "python.pythonPath": "C:\\Users\\maszt\\Anaconda3\\python.exe",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 100,
+    "workbench.colorTheme": "One Dark Pro",
+    "[python]": {
+        
+    },
+    "python.linting.pylintArgs": [
+        "--errors-only",
+        "--generate-members=numpy.* ,torch.* ,cv2.* , cv.*, sklearn.*"
+        ],
+    "workbench.sideBar.location": "left",
+    "window.zoomLevel": 0,
+
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && g++ -o $fileNameWithoutExt *.cpp && $dir$fileNameWithoutExt"
+    },
+    "python.linting.pep8Enabled": true,
+    "python.linting.pep8CategorySeverity.W": "Hint",
+    "python.linting.pep8CategorySeverity.E": "Information",
+    "editor.minimap.enabled": false,
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.editor": "json",
+    "python.linting.pylintEnabled": true,
+    "editor.fontFamily": "Source Code Pro",
+    "debug.console.fontFamily": "Source Code Pro",
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.showExecutionMessage": false,
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": false,
+
+
+        
+}
